@@ -1,5 +1,5 @@
 # hack_fbi
-This animation is in the style of Mr. Robot. Animation written in bash language. Have fun!
+This animation is in the style of Mr. Robot. Animation written in shell language. Have fun!
 
 installition:
 linux/termux
