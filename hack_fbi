@@ -1,0 +1,167 @@
+#!/bin/bash
+
+
+echo "#   #      #      ######  #  #"
+echo "#   #     # #     #       # #"
+echo "#####    #   #    #       ##"
+echo "#   #   #######   #       # #"
+echo "#   #  #       #  ######  #  #"
+echo ''
+echo ''
+echo ''
+
+
+
+
+
+
+spinner()
+       {
+           local pid=$!
+           local delay=0.75
+           local spinstr='|/-\'
+           while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+               local temp=${spinstr#?}
+               printf " [%c]  " "$spinstr"
+               local spinstr=$temp${spinstr%"$temp"}
+               sleep $delay
+               printf "\b\b\b\b\b\b"
+           done
+       }
+
+            sleep 5 & spinner
+
+
+
+
+echo 'receiving packages sucure-info.pdf'
+sleep 0.5s
+echo 'top-secret.pdf'
+sleep 0.4s
+echo 'all-hacers-in-country'
+sleep 0.6s
+echo 'loading backdoor'
+spinner()
+       {
+           local pid=$!
+           local delay=0.75
+           local spinstr='|/-\'
+           while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+               local temp=${spinstr#?}
+               printf " [%c]  " "$spinstr"
+               local spinstr=$temp${spinstr%"$temp"}
+               sleep $delay
+               printf "\b\b\b\b\b\b"
+           done
+       }
+
+            sleep 5 & spinner
+echo 'load back.sh'
+sleep 0.7s
+echo 'loading dependent file door.sh'
+sleep 1s
+echo 'backdoor in system'
+sleep 3s
+echo 'receiving packages best-workers'
+echo 'worst-workers'
+sleep 2s
+echo 'installing passwords'
+spinner()
+       {
+           local pid=$!
+           local delay=0.75
+           local spinstr='|/-\'
+           while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+               local temp=${spinstr#?}
+               printf " [%c]  " "$spinstr"
+               local spinstr=$temp${spinstr%"$temp"}
+               sleep $delay
+               printf "\b\b\b\b\b\b"
+           done
+       }
+
+            sleep 5 & spinner
+echo 'login                               pass'
+sleep 0.2s
+echo 'john                                *****'
+sleep 0.3s
+echo 'alexandr                            ********'
+sleep 0.5s
+echo 'michael                             ******'
+sleep 0.4s
+echo 'ethan                               ***********'
+sleep 0.7s
+echo 'william                             **'
+sleep 0.6s
+echo 'noah                                *'
+sleep 0.1s
+echo 'leon                                ********'
+sleep 0.3s
+echo 'ivan                                *******'
+sleep 0.5s
+echo 'maria                               ******'
+sleep 0.4s
+echo 'grow                                *********'
+sleep 3s
+echo 'jastin                              ******'
+echo 'max                                 ***'
+sleep 0.2s
+echo 'aria                                *******'
+echo 'logins and passwords save in fbi_info.txt'
+
+sleep 5s
+echo 'starting attack'
+spinner()
+       {
+           local pid=$!
+           local delay=0.75
+           local spinstr='|/-\'
+           while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+               local temp=${spinstr#?}
+               printf " [%c]  " "$spinstr"
+               local spinstr=$temp${spinstr%"$temp"}
+               sleep $delay
+               printf "\b\b\b\b\b\b"
+           done
+       }
+
+            sleep 5 & spinner
+
+echo 'print "SYS ERROR 2938388U|\DJDKUEHI8U09883"'
+sleep 0.7s
+echo 'print "YOU HAD HACKED BY DENCHIG"'
+sleep 2s
+echo 'print "CAPTURE ME"'
+sleep 3s
+echo 'print "IF"'
+sleep 5s
+echo 'print "YOU"'
+sleep 6s
+echo 'print "CAN"'
+sleep 5s
+echo 'print "GOODBYE"'
+sleep 0.8s
+echo 'starting script faied_system'
+spinner()
+       {
+           local pid=$!
+           local delay=0.75
+           local spinstr='|/-\'
+           while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+               local temp=${spinstr#?}
+               printf " [%c]  " "$spinstr"
+               local spinstr=$temp${spinstr%"$temp"}
+               sleep $delay
+               printf "\b\b\b\b\b\b"
+           done
+       }
+
+            sleep 5 & spinner
+sleep 6s
+echo ''
+echo ''
+echo "#   #      #      ######  #  #  ######  ###"
+echo "#   #     # #     #       # #   #       #  #"
+echo "#####    #   #    #       ##    ######  #   #"
+echo "#   #   #######   #       # #   #       #  #"
+echo "#   #  #       #  ######  #  #  ######  ###"
